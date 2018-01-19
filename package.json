@@ -47,5 +47,6 @@
   },
   "dependencies": {
     "prop-types": "^15.5.8"
-  }
+  },
+  "typings": "typings.d.ts"
 }
