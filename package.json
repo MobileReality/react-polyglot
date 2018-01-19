@@ -6,7 +6,8 @@
   "files": [
     "lib",
     "src",
-    "example"
+    "example",
+    "typings.d.ts"
   ],
   "scripts": {
     "clean": "rimraf lib",
