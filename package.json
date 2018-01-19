@@ -12,7 +12,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "build:example": "webpack example/app.js example/dist.js",
-    "build:commonjs": "babel src --out-dir lib; cp typings.d.ts lib",
+    "build:commonjs": "babel src --out-dir lib",
     "build": "npm run build:commonjs",
     "prepublish": "npm run clean && npm run build"
   },
@@ -49,5 +49,5 @@
   "dependencies": {
     "prop-types": "^15.5.8"
   },
-  "typings": "./src/typings.d.ts"
+  "typings": "typings.d.ts"
 }
